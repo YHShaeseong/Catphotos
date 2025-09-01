@@ -1,16 +1,18 @@
 img.cat{
-  width: 100%;
+  width: 200px;
   height: auto;
 }
 
 div.catphotos {
-  width: 2000px;
-  height: 2000px;
-  border: 20px black;
+  display: block;
+  width: 80vw;
+  height: 60vh;
+  border: 20px solid black;
+  overflow: hidden;
+  overflow: auto;
 
 
 }
-
 /* 구현하고 싶은 것
 1. 사진들을 누르면 고양이들이 meow!하고 울기  (울음소리들 다르면 재밌을 듯  
 2. 고양이 사진들뿐 아니라 메뉴를 만들어서 개 사진, 햄스터 사진..등 귀여운 사진들을 볼 수 있으면 좋겠음. 
